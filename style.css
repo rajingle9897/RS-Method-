@@ -1,0 +1,45 @@
+body { background:white; color:#293040; font-family:Times New Roman; font-weight:500; margin:0; padding:0;}
+a { color:black; }
+#main { margin: auto; max-width:800px; }
+.formula { font-family:Times New Roman; font-weight:500; font-size:0.95em; color:red; text-decoration:none; }
+
+#titlebar { margin:30px 0 0 0; }
+#title { display:inline; font-size:1.2em; }
+
+#inputForm { background:white; color:#000; margin:5px 0; padding:10px 10px 10px 12px; ; border-radius:8px; }
+#symbolButtonRow { margin:0 0 5px 3px; font-size:1em; color:black; text-align:center; }
+#symbolButtons { display:inline-block; color:black }
+#symbolButtons .formula { color:white;}
+
+#proveButton { width:70px; font-size:0.9em; padding:3px; }
+#flaField { width:calc(100% - 97px); }
+.button { background:#d3d3d3; ; color:#000; border:1px solid #ccc0bb; cursor:default; }
+#statusStop#statusStop.button:hover { background-color:red; }
+.symbutton { display:inline-block; width:18px; height:18px; color:#333!important; padding:0px 1px 5px 1px; margin-right:2px; text-align:center; }
+
+#backtostartpage { float:right; display:none; }
+#backtostartpage a { text-decoration:none; }
+
+#intro { margin:32x 0; }
+#intro p { margin:9px 0; line-height:1.6em; }
+#intro .formula { color:#742; }
+
+#status { margin:31px 0 11px; padding:11px; text-align:center; display:none; }
+#working { display:block; margin:auto; width:100px; padding:5px; color:#456; background:#fce9ba66; border:1px solid #cccac0; border-radius:8px; animation: shadow-pulse 1s infinite; }
+@keyframes shadow-pulse { 
+  0% { box-shadow: 0 0 0 0px #00708399; }
+  100% { box-shadow: 0 0 0 10px #0000; }
+}
+
+#rootAnchor { position:absolute; left:0; right:0; margin:14px auto; width:0; }
+.treeNode, .treeNodeHiParent, .treeNodeHiChild { position:absolute; white-space:nowrap; text-align:center; margin-left:10px;  }
+.treeNode span { display:inline-block; vertical-align: top; }
+.treeNode .formula { margin:0 3px; }
+.nodenumber { color: blue; width: 1.5em; padding-top:2px; text-align: right; }
+.fromnumbers { color: green; width: 2.5em; padding-top:2px; text-align: left; }
+.worldlabel { color: #742; width: 1.5em; padding-top:2px; margin-right:0.5em; text-align: center; }
+.treeNode b { display:block; margin-bottom:32px; }
+
+#model { margin:21px; padding:2px 21px; text-align:center; display:none; }
+#model b { font-weight:501; color:#023; }
+#model table { margin:auto; border:2px solid #999; padding:7px; }
